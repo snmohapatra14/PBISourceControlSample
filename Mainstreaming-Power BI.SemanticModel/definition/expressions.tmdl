@@ -1,0 +1,15 @@
+expression All_Old_OoSC_Static =
+		let
+		    Source = GoogleBigQuery.Database([Implementation="2.0"]),
+		    #"asj-prabandh-project_Database" = Source{[Name="asj-prabandh-project",Kind="Database"]}[Data],
+		    Raw_Data_Schema = #"asj-prabandh-project_Database"{[Name="Raw_Data",Kind="Schema"]}[Data],
+		    All_Old_OoSC_Static_Table = Raw_Data_Schema{[Name="child_tracking_survey",Kind="Table"]}[Data],
+		    #"Renamed Columns" = Table.RenameColumns(All_Old_OoSC_Static_Table,{{"id_child_id", "ID_CHILD_ID"}})
+		in
+		    #"Renamed Columns"
+	lineageTag: 1220fec2-8fee-4b19-aede-6dafdd80a0a6
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,709 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "9217ce8862050a5c527e",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 719.24733369068963,
+    "width": 1279.503151512911
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "ID-CHILD ID"
+                }
+              },
+              "queryRef": "All_Old_OoSC.ID-CHILD ID",
+              "nativeQueryRef": "ID-CHILD ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "udise_school_code_last_attended"
+                }
+              },
+              "queryRef": "All_Old_OoSC.udise_school_code_last_attended",
+              "nativeQueryRef": "udise_school_code_last_attended"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "student_name"
+                }
+              },
+              "queryRef": "All_Old_OoSC.student_name",
+              "nativeQueryRef": "student_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "father_name"
+                }
+              },
+              "queryRef": "All_Old_OoSC.father_name",
+              "nativeQueryRef": "father_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "mother_name"
+                }
+              },
+              "queryRef": "All_Old_OoSC.mother_name",
+              "nativeQueryRef": "mother_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "local_guardian Name"
+                }
+              },
+              "queryRef": "All_Old_OoSC.local_guardian Name",
+              "nativeQueryRef": "local_guardian Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "F_Mobile"
+                }
+              },
+              "queryRef": "All_Old_OoSC.F_Mobile",
+              "nativeQueryRef": "F_Mobile"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "F.Address"
+                }
+              },
+              "queryRef": "All_Old_OoSC.F.Address",
+              "nativeQueryRef": "F.Address"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "gender"
+                }
+              },
+              "queryRef": "All_Old_OoSC.gender",
+              "nativeQueryRef": "gender"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "age"
+                }
+              },
+              "queryRef": "Sum(All_Old_OoSC.age)",
+              "nativeQueryRef": "age"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "cwsn"
+                }
+              },
+              "queryRef": "All_Old_OoSC.cwsn",
+              "nativeQueryRef": "cwsn"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "category"
+                }
+              },
+              "queryRef": "All_Old_OoSC.category",
+              "nativeQueryRef": "category"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "religion"
+                }
+              },
+              "queryRef": "All_Old_OoSC.religion",
+              "nativeQueryRef": "religion"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "dropout_never_enrolled"
+                }
+              },
+              "queryRef": "All_Old_OoSC.dropout_never_enrolled",
+              "nativeQueryRef": "dropout_never_enrolled"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "approx_period_dropout_months"
+                }
+              },
+              "queryRef": "All_Old_OoSC.approx_period_dropout_months",
+              "nativeQueryRef": "approx_period_dropout_months"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "last_class_attended_number_only"
+                }
+              },
+              "queryRef": "All_Old_OoSC.last_class_attended_number_only",
+              "nativeQueryRef": "last_class_attended_number_only"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "state"
+                }
+              },
+              "queryRef": "All_Old_OoSC.state",
+              "nativeQueryRef": "state"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "district"
+                }
+              },
+              "queryRef": "All_Old_OoSC.district",
+              "nativeQueryRef": "district"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "block"
+                }
+              },
+              "queryRef": "All_Old_OoSC.block",
+              "nativeQueryRef": "block"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "is_migrant"
+                }
+              },
+              "queryRef": "All_Old_OoSC.is_migrant",
+              "nativeQueryRef": "is_migrant"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "center_type_direct_enrolment"
+                }
+              },
+              "queryRef": "All_Old_OoSC.center_type_direct_enrolment",
+              "nativeQueryRef": "center_type_direct_enrolment"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "mainstreamed_udise_institute"
+                }
+              },
+              "queryRef": "All_Old_OoSC.mainstreamed_udise_institute",
+              "nativeQueryRef": "mainstreamed_udise_institute"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "mainstreamed_class_stream_course"
+                }
+              },
+              "queryRef": "All_Old_OoSC.mainstreamed_class_stream_course",
+              "nativeQueryRef": "mainstreamed_class_stream_course"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "remark"
+                }
+              },
+              "queryRef": "All_Old_OoSC.remark",
+              "nativeQueryRef": "remark"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "status_category"
+                }
+              },
+              "queryRef": "All_Old_OoSC.status_category",
+              "nativeQueryRef": "status_category"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "missing_field_error"
+                }
+              },
+              "queryRef": "All_Old_OoSC.missing_field_error",
+              "nativeQueryRef": "missing_field_error"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "dropdown_data_mismatch"
+                }
+              },
+              "queryRef": "All_Old_OoSC.dropdown_data_mismatch",
+              "nativeQueryRef": "dropdown_data_mismatch"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "other_errors"
+                }
+              },
+              "queryRef": "All_Old_OoSC.other_errors",
+              "nativeQueryRef": "other_errors"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "system_error"
+                }
+              },
+              "queryRef": "All_Old_OoSC.system_error",
+              "nativeQueryRef": "system_error"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "All_Old_OoSC"
+                  }
+                },
+                "Property": "other_errors"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "115.91144319651998D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.udise_school_code_last_attended"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "132.35182719892D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.student_name"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "130.27980397390442D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.father_name"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "120.3116873664928D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.mother_name"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "88.91972399834687D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.local_guardian Name"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "138.83942960685937D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.F.Address"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "59.56788230694082D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Sum(All_Old_OoSC.age)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "124.88582935452364D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.mainstreamed_class_stream_course"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "142.53841241589413D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.mainstreamed_udise_institute"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "198.68093599482177D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.remark"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "74.06573670466497D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.status_category"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "129.8124531132783D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.missing_field_error"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "102.68236107735024D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.dropdown_data_mismatch"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "169D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.other_errors"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "74415b6706172d904d3a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "All_Old_OoSC"
+              }
+            },
+            "Property": "CentreType_Status"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "a",
+              "Entity": "All_Old_OoSC",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "a"
+                          }
+                        },
+                        "Property": "CentreType_Status"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'CentreType_Correct'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}

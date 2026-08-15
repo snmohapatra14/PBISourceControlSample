@@ -1,0 +1,501 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "3ef5f727ae5b7b38c9d8",
+  "position": {
+    "x": 0,
+    "y": 587.90221109352069,
+    "z": 0,
+    "height": 693.84925266867822,
+    "width": 909.89812176311693,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "center_type_direct_enrolment"
+                }
+              },
+              "queryRef": "All_Old_OoSC.center_type_direct_enrolment",
+              "nativeQueryRef": "center_type_direct_enrolment",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "All_Old_OoSC"
+                        }
+                      },
+                      "Hierarchy": "district Hierarchy"
+                    }
+                  },
+                  "Level": "district"
+                }
+              },
+              "queryRef": "All_Old_OoSC.district Hierarchy.district",
+              "nativeQueryRef": "district Hierarchy district",
+              "active": true
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "All_Old_OoSC"
+                        }
+                      },
+                      "Hierarchy": "district Hierarchy"
+                    }
+                  },
+                  "Level": "block"
+                }
+              },
+              "queryRef": "All_Old_OoSC.district Hierarchy.block",
+              "nativeQueryRef": "district Hierarchy block",
+              "active": false
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "district"
+                }
+              },
+              "queryRef": "All_Old_OoSC.district",
+              "nativeQueryRef": "district",
+              "active": false
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Mainstreamed Children"
+                }
+              },
+              "queryRef": "Measure Table.Mainstreamed Children",
+              "nativeQueryRef": "Mainstreamed Children"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "HierarchyLevel": {
+                "Expression": {
+                  "Hierarchy": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "All_Old_OoSC"
+                      }
+                    },
+                    "Hierarchy": "district Hierarchy"
+                  }
+                },
+                "Level": "district"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "All_Old_OoSC.district Hierarchy.district"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "district"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "All_Old_OoSC.district Hierarchy.block"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "All_Old_OoSC.district"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "autoSizeColumnWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "columnAdjustment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'fitToContent'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "73.73585063830554D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "All_Old_OoSC"
+                          }
+                        },
+                        "Property": "center_type_direct_enrolment"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Vocational Institution'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "75.18865706729356D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "All_Old_OoSC"
+                          }
+                        },
+                        "Property": "center_type_direct_enrolment"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Special Training Centre'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "62.49056236061681D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "All_Old_OoSC"
+                          }
+                        },
+                        "Property": "center_type_direct_enrolment"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Seasonal Hostel'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "80.55197763514451D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "All_Old_OoSC"
+                          }
+                        },
+                        "Property": "center_type_direct_enrolment"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Residential Hostel'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "88.62263660959998D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "All_Old_OoSC"
+                          }
+                        },
+                        "Property": "center_type_direct_enrolment"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Home-based Education'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "122.15093369422965D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "All_Old_OoSC"
+                          }
+                        },
+                        "Property": "center_type_direct_enrolment"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Vocational Rehabilitation Centre for CwSN'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "42.47170485874774D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "All_Old_OoSC"
+                          }
+                        },
+                        "Property": "center_type_direct_enrolment"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Work Site'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "78.33333333333333D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "All_Old_OoSC"
+                          }
+                        },
+                        "Property": "center_type_direct_enrolment"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "'Direct Enrolment'"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

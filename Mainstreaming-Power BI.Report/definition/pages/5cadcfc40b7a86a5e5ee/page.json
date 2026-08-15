@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "5cadcfc40b7a86a5e5ee",
+  "displayName": "ASJ-V1-Mainstreaming",
+  "displayOption": "FitToWidth",
+  "height": 1700,
+  "width": 1700,
+  "pageBinding": {
+    "name": "1372efa0a578c2319a16",
+    "type": "Default",
+    "parameters": []
+  },
+  "objects": {
+    "displayArea": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

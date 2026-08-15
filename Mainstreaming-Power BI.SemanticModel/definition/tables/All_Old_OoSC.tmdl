@@ -1,0 +1,513 @@
+table All_Old_OoSC
+	lineageTag: 3c4af3af-31d1-4649-818c-1275033d834a
+
+	column s_no
+		dataType: string
+		lineageTag: 5f38320a-4a6b-4335-bda9-ef780f34aaa9
+		summarizeBy: none
+		sourceColumn: s_no
+
+		annotation SummarizationSetBy = Automatic
+
+	column unique_id
+		dataType: string
+		lineageTag: c010f7a2-f187-43cf-97e7-151524d2da57
+		summarizeBy: none
+		sourceColumn: unique_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column udise_school_code_last_attended
+		dataType: string
+		lineageTag: 3036951a-7c2f-421b-8202-9163a0996173
+		summarizeBy: none
+		sourceColumn: udise_school_code_last_attended
+
+		annotation SummarizationSetBy = Automatic
+
+	column student_name
+		dataType: string
+		lineageTag: bdfe6b4e-b180-4e2f-b49d-59cae7ca8b4a
+		summarizeBy: none
+		sourceColumn: student_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column father_name
+		dataType: string
+		lineageTag: 1a99f6ad-bcd2-492c-9789-8c78eee08729
+		summarizeBy: none
+		sourceColumn: father_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column mother_name
+		dataType: string
+		lineageTag: 8f388abd-0fb2-4759-90a7-45368a7b68b7
+		summarizeBy: none
+		sourceColumn: mother_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column gender
+		dataType: string
+		lineageTag: 05c0f335-56c2-4d75-9338-363876d08280
+		summarizeBy: none
+		sourceColumn: gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column age
+		dataType: int64
+		lineageTag: 94310a0d-6a26-44ee-908b-a938f2a36b6c
+		summarizeBy: sum
+		sourceColumn: age
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column cwsn
+		dataType: string
+		lineageTag: 4e9f79b4-b0e1-4e46-a669-4afdb72eb57d
+		summarizeBy: none
+		sourceColumn: cwsn
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 9f213524-2e34-4587-92eb-eda8914a589a
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column religion
+		dataType: string
+		lineageTag: 731308fb-5730-40df-b16a-2f404f2e96a0
+		summarizeBy: none
+		sourceColumn: religion
+
+		annotation SummarizationSetBy = Automatic
+
+	column dropout_never_enrolled
+		dataType: string
+		lineageTag: 12d21a76-2a2e-4031-bc43-e9ae1a841f3a
+		summarizeBy: none
+		sourceColumn: dropout_never_enrolled
+
+		annotation SummarizationSetBy = Automatic
+
+	column approx_period_dropout_months
+		dataType: string
+		lineageTag: 0019106d-55cf-4a6c-8a1e-698568952374
+		summarizeBy: none
+		sourceColumn: approx_period_dropout_months
+
+		annotation SummarizationSetBy = Automatic
+
+	column last_class_attended_number_only
+		dataType: string
+		lineageTag: 7989379e-acfe-4e99-a26a-0e73bf221a99
+		summarizeBy: none
+		sourceColumn: last_class_attended_number_only
+
+		annotation SummarizationSetBy = Automatic
+
+	column state
+		dataType: string
+		lineageTag: 239731fb-3dbb-4e62-aba4-de332eeee8ae
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column district
+		dataType: string
+		lineageTag: bf0a9e6d-d8ab-468d-8559-85ef6575940e
+		summarizeBy: none
+		sourceColumn: district
+
+		annotation SummarizationSetBy = Automatic
+
+	column block
+		dataType: string
+		lineageTag: 06bbf43c-cbdf-49f7-80a0-42c87fda9928
+		summarizeBy: none
+		sourceColumn: block
+
+		annotation SummarizationSetBy = Automatic
+
+	column training_required
+		dataType: string
+		lineageTag: db0f7e64-7b37-478f-95ab-8c5f779315c1
+		summarizeBy: none
+		sourceColumn: training_required
+
+		annotation SummarizationSetBy = Automatic
+
+	column mode_of_training
+		dataType: string
+		lineageTag: 2eb2e4db-95f6-4c20-a72c-ec2ef84a1f0b
+		summarizeBy: none
+		sourceColumn: mode_of_training
+
+		annotation SummarizationSetBy = Automatic
+
+	column financial_support_required
+		dataType: string
+		lineageTag: 5eee0350-19a3-41c0-a89f-8619afb711f6
+		summarizeBy: none
+		sourceColumn: financial_support_required
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_migrant
+		dataType: string
+		lineageTag: 0b9db963-78e6-4115-a36c-c98e91150887
+		summarizeBy: none
+		sourceColumn: is_migrant
+
+		annotation SummarizationSetBy = Automatic
+
+	column duration_of_training_months
+		dataType: string
+		lineageTag: 4aea1e37-f79b-417b-a1e0-b122afa0bb5a
+		summarizeBy: none
+		sourceColumn: duration_of_training_months
+
+		annotation SummarizationSetBy = Automatic
+
+	column training_for_class
+		dataType: string
+		lineageTag: 67bfb57e-57f6-42ec-b659-ff01c4dbe0e5
+		summarizeBy: none
+		sourceColumn: training_for_class
+
+		annotation SummarizationSetBy = Automatic
+
+	column center_type_direct_enrolment
+		dataType: string
+		lineageTag: e7ba2e0d-2b8d-4d0d-b47a-033288530181
+		summarizeBy: none
+		sourceColumn: center_type_direct_enrolment
+
+		annotation SummarizationSetBy = Automatic
+
+	column training_completed
+		dataType: string
+		lineageTag: 94d582d0-de1e-47dd-89f7-56343f7c8f30
+		summarizeBy: none
+		sourceColumn: training_completed
+
+		annotation SummarizationSetBy = Automatic
+
+	column exam_appeared
+		dataType: string
+		lineageTag: 0b7d175f-8b45-4751-9a89-1c697a1b62cf
+		summarizeBy: none
+		sourceColumn: exam_appeared
+
+		annotation SummarizationSetBy = Automatic
+
+	column exam_passed
+		dataType: string
+		lineageTag: 790670da-cfb3-4458-b9f1-2e711313293d
+		summarizeBy: none
+		sourceColumn: exam_passed
+
+		annotation SummarizationSetBy = Automatic
+
+	column mainstreamed
+		dataType: string
+		lineageTag: efc6c882-6d74-4266-a7b6-a89f79ae6d2c
+		summarizeBy: none
+		sourceColumn: mainstreamed
+
+		annotation SummarizationSetBy = Automatic
+
+	column is_continuing
+		dataType: string
+		lineageTag: 19485667-cd77-4f4d-bd6c-7726ef121aba
+		summarizeBy: none
+		sourceColumn: is_continuing
+
+		annotation SummarizationSetBy = Automatic
+
+	column action
+		dataType: string
+		lineageTag: 915df7a0-353f-4be5-ae61-e4e234f11d77
+		summarizeBy: none
+		sourceColumn: action
+
+		annotation SummarizationSetBy = Automatic
+
+	column mainstreamed_udise_institute
+		dataType: string
+		lineageTag: d083498c-0b37-47af-ae58-7f3811d723e8
+		summarizeBy: none
+		sourceColumn: mainstreamed_udise_institute
+
+		annotation SummarizationSetBy = Automatic
+
+	column mainstreamed_class_stream_course
+		dataType: string
+		lineageTag: ddfa77bc-4176-45e5-9762-4c1968e78f72
+		summarizeBy: none
+		sourceColumn: mainstreamed_class_stream_course
+
+		annotation SummarizationSetBy = Automatic
+
+	column remark
+		dataType: string
+		lineageTag: 3dca52ef-43ae-4bdb-9309-33ec7544c30f
+		summarizeBy: none
+		sourceColumn: remark
+
+		annotation SummarizationSetBy = Automatic
+
+	column status_category
+		dataType: string
+		lineageTag: fac01631-faa3-4d8a-ad17-67df2a6eb3e2
+		summarizeBy: none
+		sourceColumn: status_category
+
+		annotation SummarizationSetBy = Automatic
+
+	column disability_type
+		dataType: string
+		lineageTag: bcdd6a3f-921e-4533-b27d-af048d7b10f0
+		summarizeBy: none
+		sourceColumn: disability_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column percent_of_disability
+		dataType: string
+		lineageTag: 5800e59d-3fb5-433b-b9c7-34290fc621a5
+		summarizeBy: none
+		sourceColumn: percent_of_disability
+
+		annotation SummarizationSetBy = Automatic
+
+	column cts_basicinfo_id
+		dataType: string
+		lineageTag: b99145fd-de88-481b-a3bc-f14120533e85
+		summarizeBy: none
+		sourceColumn: cts_basicinfo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column cts_id
+		dataType: string
+		lineageTag: 56e236e2-a8e6-4f04-ac8b-2d0b4d2aa53f
+		summarizeBy: none
+		sourceColumn: cts_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column cts_child_id
+		dataType: string
+		lineageTag: 3407a87f-3ad6-46d7-b7b8-178e1ca3921e
+		summarizeBy: none
+		sourceColumn: cts_child_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column child_source
+		dataType: string
+		lineageTag: 5551c29e-6307-4fce-9bff-b475c6c6fc15
+		summarizeBy: none
+		sourceColumn: child_source
+
+		annotation SummarizationSetBy = Automatic
+
+	column missing_field_error
+		dataType: string
+		lineageTag: 26da5fe7-6614-40f6-aeb2-8b0aaf73ce03
+		summarizeBy: none
+		sourceColumn: missing_field_error
+
+		annotation SummarizationSetBy = Automatic
+
+	column dropdown_data_mismatch
+		dataType: string
+		lineageTag: 162b0de9-337d-40fe-a6e3-19291f4a0be3
+		summarizeBy: none
+		sourceColumn: dropdown_data_mismatch
+
+		annotation SummarizationSetBy = Automatic
+
+	column other_errors
+		dataType: string
+		lineageTag: 7b1b6046-7359-46b9-ad3b-65199e32c61c
+		summarizeBy: none
+		sourceColumn: other_errors
+
+		annotation SummarizationSetBy = Automatic
+
+	column system_error
+		dataType: string
+		lineageTag: d0585203-3d28-4b23-b22a-81cd3bdb18a9
+		summarizeBy: none
+		sourceColumn: system_error
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_table
+		dataType: string
+		lineageTag: 29a46043-3e1b-4706-b4cf-379590369513
+		summarizeBy: none
+		sourceColumn: source_table
+
+		annotation SummarizationSetBy = Automatic
+
+	column CentreType_Status
+		dataType: string
+		lineageTag: 2b46c778-4ca7-4de8-9de5-9d1e1c2479df
+		summarizeBy: none
+		sourceColumn: CentreType_Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'local_guardian Name'
+		dataType: string
+		lineageTag: b863a879-bf12-47ec-9a23-82e41c4bb99c
+		summarizeBy: none
+		sourceColumn: local_guardian Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column F_Mobile
+		dataType: string
+		lineageTag: 55712eb5-f593-4cf9-a6c9-0978a41cf7bd
+		summarizeBy: none
+		sourceColumn: F_Mobile
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'F.Address'
+		dataType: string
+		lineageTag: e00a70ea-40d3-468a-9bba-bde508b8fc2b
+		summarizeBy: none
+		sourceColumn: F.Address
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'ID-CHILD ID'
+		dataType: string
+		lineageTag: fcfcdc20-57f5-4c89-a41e-2c96f3bb9d7a
+		summarizeBy: none
+		sourceColumn: ID-CHILD ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Static.Contact_Number_Head'
+		dataType: string
+		lineageTag: 3f433d4b-8a0a-42b7-84dc-babc480e08b2
+		summarizeBy: none
+		sourceColumn: Static.Contact_Number_Head
+
+		annotation SummarizationSetBy = Automatic
+
+	column Age-C1
+		dataType: string
+		lineageTag: 7713bfcd-0d59-44c0-a390-551d716ad8ae
+		summarizeBy: none
+		sourceColumn: Age-C1
+		sortByColumn: 'Age-Sort Helper'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Age-Sort Helper'
+		dataType: int64
+		formatString: 0
+		lineageTag: 6b510892-0e6f-456f-9630-dbc7532b526f
+		summarizeBy: sum
+		sourceColumn: Age-Sort Helper
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_child_id
+		dataType: string
+		lineageTag: 4dc89143-50bc-4612-9e1d-380d1b02d294
+		summarizeBy: none
+		sourceColumn: id_child_id
+
+		annotation SummarizationSetBy = Automatic
+
+	hierarchy 'district Hierarchy'
+		lineageTag: 3962b76b-fe97-4679-b8c6-570fb54e2793
+
+		level district
+			lineageTag: e6dd4936-a96c-4c07-95f6-62af975aa8eb
+			column: district
+
+		level block
+			lineageTag: b51ea955-ecaf-4029-a8c5-4e81073f95cc
+			column: block
+
+	partition All_Old_OoSC = m
+		mode: import
+		source = ```
+				let
+				    Source = GoogleBigQuery.Database([Implementation="2.0"]),
+				    #"asj-prabandh-project_Database" = Source{[Name="asj-prabandh-project",Kind="Database"]}[Data],
+				    Raw_Data_Schema = #"asj-prabandh-project_Database"{[Name="Raw_Data",Kind="Schema"]}[Data],
+				    All_Old_OoSC_Table = Raw_Data_Schema{[Name="All_Old_OoSC",Kind="Table"]}[Data],
+				    #"Inserted Merged Column" = Table.AddColumn(All_Old_OoSC_Table, "ID-CHILD ID", each Text.Combine({[cts_id], [cts_child_id]}, "-"), type text),
+				    #"Merged Queries" = Table.NestedJoin(#"Inserted Merged Column", {"ID-CHILD ID"}, All_Old_OoSC_Static, {"ID_CHILD_ID"}, "All_Old_OoSC_Static", JoinKind.LeftOuter),
+				    #"Expanded All_Old_OoSC_Static" = Table.ExpandTableColumn(#"Merged Queries", "All_Old_OoSC_Static", {"Gram_Panchayat", "Village", "Contact_Number_Head", "Contact_Number"}, {"Static.Gram_Panchayat", "Static.Village", "Static.Contact_Number_Head", "Static.Contact_Number"}),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Expanded All_Old_OoSC_Static",{"s_no", "unique_id", "udise_school_code_last_attended", "student_name", "father_name", "mother_name", "name_local_guardian", "mobile", "Static.Contact_Number", "address", "gender", "age", "cwsn", "category", "religion", "dropout_never_enrolled", "approx_period_dropout_months", "last_class_attended_number_only", "state", "district", "block", "training_required", "mode_of_training", "financial_support_required", "is_migrant", "duration_of_training_months", "training_for_class", "center_type_direct_enrolment", "training_completed", "exam_appeared", "exam_passed", "mainstreamed", "is_continuing", "action", "mainstreamed_udise_institute", "mainstreamed_class_stream_course", "remark", "status_category", "disability_type", "percent_of_disability", "cts_basicinfo_id", "cts_id", "cts_child_id", "child_source", "missing_field_error", "dropdown_data_mismatch", "other_errors", "system_error", "source_table", "CentreType_Status", "ID-CHILD ID"}),
+				    #"Added Custom" = Table.AddColumn(#"Reordered Columns", "F_Mobile", each if Text.Start([mobile], 1) = "*" or Text.Length([mobile]) <> 10 then 
+				    if Text.Length(Text.From([Static.Contact_Number])) <> 10 then 
+				      if Text.Length(Text.From([Static.Contact_Number_Head])) <> 10 then 
+				      null
+				      else
+				      Text.From([Static.Contact_Number_Head])
+				    else 
+				        Text.From([Static.Contact_Number]) 
+				else 
+				    [mobile]),
+				    #"Reordered Columns1" = Table.ReorderColumns(#"Added Custom",{"s_no", "unique_id", "udise_school_code_last_attended", "student_name", "father_name", "mother_name", "name_local_guardian", "mobile", "Static.Contact_Number", "F_Mobile", "address", "gender", "age", "cwsn", "category", "religion", "dropout_never_enrolled", "approx_period_dropout_months", "last_class_attended_number_only", "state", "district", "block", "training_required", "mode_of_training", "financial_support_required", "is_migrant", "duration_of_training_months", "training_for_class", "center_type_direct_enrolment", "training_completed", "exam_appeared", "exam_passed", "mainstreamed", "is_continuing", "action", "mainstreamed_udise_institute", "mainstreamed_class_stream_course", "remark", "status_category", "disability_type", "percent_of_disability", "cts_basicinfo_id", "cts_id", "cts_child_id", "child_source", "missing_field_error", "dropdown_data_mismatch", "other_errors", "system_error", "source_table", "CentreType_Status", "ID-CHILD ID"}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Reordered Columns1",{"mobile", "Static.Contact_Number"}),
+				    #"Added Custom1" = Table.AddColumn(#"Removed Columns", "local_guardian Name", each if [father_name] = null and [mother_name] = null then 
+				    [name_local_guardian] 
+				else 
+				    null),
+				    #"Reordered Columns2" = Table.ReorderColumns(#"Added Custom1",{"s_no", "unique_id", "udise_school_code_last_attended", "student_name", "father_name", "mother_name", "name_local_guardian", "local_guardian Name", "F_Mobile", "address", "gender", "age", "cwsn", "category", "religion", "dropout_never_enrolled", "approx_period_dropout_months", "last_class_attended_number_only", "state", "district", "block", "training_required", "mode_of_training", "financial_support_required", "is_migrant", "duration_of_training_months", "training_for_class", "center_type_direct_enrolment", "training_completed", "exam_appeared", "exam_passed", "mainstreamed", "is_continuing", "action", "mainstreamed_udise_institute", "mainstreamed_class_stream_course", "remark", "status_category", "disability_type", "percent_of_disability", "cts_basicinfo_id", "cts_id", "cts_child_id", "child_source", "missing_field_error", "dropdown_data_mismatch", "other_errors", "system_error", "source_table", "CentreType_Status", "ID-CHILD ID"}),
+				    #"Removed Columns1" = Table.RemoveColumns(#"Reordered Columns2",{"name_local_guardian"}),
+				    #"Added Custom2" = Table.AddColumn(#"Removed Columns1", "F.Address", each if[address]= null then [Static.Village]&","&[Static.Gram_Panchayat] else [address]),
+				    #"Reordered Columns3" = Table.ReorderColumns(#"Added Custom2",{"s_no", "unique_id", "udise_school_code_last_attended", "student_name", "father_name", "mother_name", "local_guardian Name", "F_Mobile", "address", "F.Address", "gender", "age", "cwsn", "category", "religion", "dropout_never_enrolled", "approx_period_dropout_months", "last_class_attended_number_only", "state", "district", "block", "training_required", "mode_of_training", "financial_support_required", "is_migrant", "duration_of_training_months", "training_for_class", "center_type_direct_enrolment", "training_completed", "exam_appeared", "exam_passed", "mainstreamed", "is_continuing", "action", "mainstreamed_udise_institute", "mainstreamed_class_stream_course", "remark", "status_category", "disability_type", "percent_of_disability", "cts_basicinfo_id", "cts_id", "cts_child_id", "child_source", "missing_field_error", "dropdown_data_mismatch", "other_errors", "system_error", "Static.Gram_Panchayat", "Static.Village", "source_table", "CentreType_Status", "ID-CHILD ID"}),
+				    #"Removed Columns2" = Table.RemoveColumns(#"Reordered Columns3",{"address", "Static.Gram_Panchayat", "Static.Village"}),
+				    #"Reordered Columns4" = Table.ReorderColumns(#"Removed Columns2",{"source_table", "s_no", "unique_id", "udise_school_code_last_attended", "student_name", "father_name", "mother_name", "local_guardian Name", "F_Mobile", "F.Address", "gender", "age", "cwsn", "category", "religion", "dropout_never_enrolled", "approx_period_dropout_months", "last_class_attended_number_only", "state", "district", "block", "training_required", "mode_of_training", "financial_support_required", "is_migrant", "duration_of_training_months", "training_for_class", "center_type_direct_enrolment", "training_completed", "exam_appeared", "exam_passed", "mainstreamed", "is_continuing", "action", "mainstreamed_udise_institute", "mainstreamed_class_stream_course", "remark", "status_category", "disability_type", "percent_of_disability", "cts_basicinfo_id", "cts_id", "cts_child_id", "child_source", "missing_field_error", "dropdown_data_mismatch", "other_errors", "system_error", "CentreType_Status", "ID-CHILD ID"}),
+				    #"Age Type Change" = Table.TransformColumns(
+				    #"Reordered Columns4",
+				    {
+				        {
+				            "age",
+				            each 
+				                try Number.RoundUp(Number.From(Text.Trim(_)), 0) 
+				                otherwise null,
+				            Int64.Type
+				        }
+				    }
+				),
+				    #"Age-C1" = Table.AddColumn(#"Age Type Change", "Age-C1", each if [age] = null or  [age] < 6 then "Age<6"
+				  else if [age] > 18 then "Age>18"
+				  else Text.From([age])),
+				    #"Added Custom3" = Table.AddColumn(#"Age-C1", "Age-Sort Helper", each if [#"Age-C1"] = "Age<6" then 5 else if [#"Age-C1"] = "Age>18" then 19 else [#"Age-C1"]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Added Custom3",{{"Age-Sort Helper", Int64.Type}})
+				in
+				    #"Changed Type"
+				```
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

@@ -1,0 +1,322 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "510fd6a28c0e8d9e4843",
+  "position": {
+    "x": 183.70371500651061,
+    "y": 10.370381673177087,
+    "z": 7000,
+    "height": 586.66666666666663,
+    "width": 342.22222222222223,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "dropout_never_enrolled"
+                }
+              },
+              "queryRef": "All_Old_OoSC.dropout_never_enrolled",
+              "nativeQueryRef": "dropout_never_enrolled",
+              "active": true
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "All_Old_OoSC"
+                        }
+                      },
+                      "Hierarchy": "district Hierarchy"
+                    }
+                  },
+                  "Level": "district"
+                }
+              },
+              "queryRef": "All_Old_OoSC.district Hierarchy.district",
+              "nativeQueryRef": "district Hierarchy district",
+              "active": false
+            },
+            {
+              "field": {
+                "HierarchyLevel": {
+                  "Expression": {
+                    "Hierarchy": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "All_Old_OoSC"
+                        }
+                      },
+                      "Hierarchy": "district Hierarchy"
+                    }
+                  },
+                  "Level": "block"
+                }
+              },
+              "queryRef": "All_Old_OoSC.district Hierarchy.block",
+              "nativeQueryRef": "district Hierarchy block",
+              "active": false
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Total OoSC"
+                }
+              },
+              "queryRef": "Measure Table.Total OoSC",
+              "nativeQueryRef": "Total OoSC"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Duplicate-Test/Invalid"
+                }
+              },
+              "queryRef": "Measure Table.Duplicate-Test/Invalid",
+              "nativeQueryRef": "Duplicate-Test/Invalid"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Total OoSC (El. D/T/I)"
+                }
+              },
+              "queryRef": "Measure Table.Total OoSC (El. D/T/I)",
+              "nativeQueryRef": "Total OoSC (El. D/T/I)"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Mainstreamed Children"
+                }
+              },
+              "queryRef": "Measure Table.Mainstreamed Children",
+              "nativeQueryRef": "Mainstreamed Children"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Needs Medical Care Only"
+                }
+              },
+              "queryRef": "Measure Table.Needs Medical Care Only",
+              "nativeQueryRef": "Needs Medical Care Only"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "OoSC YTM"
+                }
+              },
+              "queryRef": "Measure Table.OoSC YTM",
+              "nativeQueryRef": "OoSC YTM"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "All_Old_OoSC"
+                  }
+                },
+                "Property": "dropout_never_enrolled"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "All_Old_OoSC.dropout_never_enrolled"
+            ],
+            "isCollapsed": true,
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "dropout_never_enrolled"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "All_Old_OoSC.district Hierarchy.district"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "All_Old_OoSC.district Hierarchy.block"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            },
+            "rowPadding": {
+              "expr": {
+                "Literal": {
+                  "Value": "2D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "blankRows": [
+        {
+          "properties": {
+            "showBlankRows": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "values": [
+        {
+          "properties": {
+            "bold": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "valuesOnRow": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "106.44446935924739D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Mainstreaming Analysis All Dropout & Never Enrolled OoSC'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,51 @@
+table 'Measure Table'
+	lineageTag: 37b43cb8-b3ba-47d2-b3e4-fbd2481f02ea
+
+	measure 'Mainstreamed Children' =
+			
+			CALCULATE(
+			    [Total OoSC],
+			    'All_Old_OoSC'[CentreType_Status] = "CentreType_Correct"
+			)
+		formatString: 0
+		lineageTag: 542de5d7-5132-4a6a-afa0-641d4b15c7dc
+
+	measure 'Total OoSC' = COUNTA(All_Old_OoSC[ID-CHILD ID])
+		formatString: 0
+		lineageTag: c44375e7-86e0-4670-9473-dcf87faf67a8
+
+	measure Duplicate-Test/Invalid = CALCULATE([Total OoSC],AND(OR(All_Old_OoSC[status_category]="Duplicate Entry",All_Old_OoSC[status_category]="Test/ Invalid Entry"),AND(All_Old_OoSC[CentreType_Status]<>"CentreType_Correct",All_Old_OoSC[CentreType_Status]<>"Child Needs Only Medical Care")))
+		formatString: 0
+		lineageTag: 0bb9f45d-c6c8-4408-b004-c747358c6231
+
+	measure 'Total OoSC (El. D/T/I)' = [Total OoSC]-[Duplicate-Test/Invalid]
+		formatString: 0
+		lineageTag: d9ac5e1c-a6ad-4264-a764-8178561d9949
+
+	measure 'OoSC YTM' = CALCULATE([Total OoSC (El. D/T/I)]-[Mainstreamed Children])
+		formatString: 0
+		lineageTag: 870fb9fe-476d-4e04-b418-a44c093e4b9c
+
+	measure 'Needs Medical Care Only' =
+			
+			CALCULATE(
+			    [Total OoSC],
+			    'All_Old_OoSC'[CentreType_Status] = "Child Needs Only Medical Care"
+			)
+		formatString: 0
+		lineageTag: 6410b5c7-5a94-49b0-ad41-414f4d004945
+
+	column Dummy
+		lineageTag: 253b06c0-ca12-4975-b381-37b54f0ceaf6
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Dummy]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Measure Table' = calculated
+		mode: import
+		source = DATATABLE("Dummy", STRING,{{"X"}})
+
+	annotation PBI_Id = ced200dcb4e849ab97abaca299bfdef6
+

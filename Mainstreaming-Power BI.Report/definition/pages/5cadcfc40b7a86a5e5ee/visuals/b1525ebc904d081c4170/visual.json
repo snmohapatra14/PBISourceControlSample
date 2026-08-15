@@ -1,0 +1,154 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "b1525ebc904d081c4170",
+  "position": {
+    "x": 857.77777777777771,
+    "y": 11.111111111111111,
+    "z": 1000,
+    "height": 333.33333333333331,
+    "width": 297.77777777777777,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "center_type_direct_enrolment"
+                }
+              },
+              "queryRef": "All_Old_OoSC.center_type_direct_enrolment",
+              "nativeQueryRef": "Centre Types",
+              "active": true,
+              "displayName": "Centre Types"
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Mainstreamed Children"
+                }
+              },
+              "queryRef": "Measure Table.Mainstreamed Children",
+              "nativeQueryRef": "Mainstreamed Children"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "133.97595861310083D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "scopeId": {
+                  "Comparison": {
+                    "ComparisonKind": 0,
+                    "Left": {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Entity": "All_Old_OoSC"
+                          }
+                        },
+                        "Property": "center_type_direct_enrolment"
+                      }
+                    },
+                    "Right": {
+                      "Literal": {
+                        "Value": "null"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "154.5555651273009D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "All_Old_OoSC.center_type_direct_enrolment"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "121.33334188680594D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure Table.Mainstreamed Children"
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Mainstreaming Across Centre Types'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

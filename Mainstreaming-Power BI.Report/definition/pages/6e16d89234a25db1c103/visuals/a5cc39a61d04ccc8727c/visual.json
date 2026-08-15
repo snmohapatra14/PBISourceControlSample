@@ -1,0 +1,209 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "a5cc39a61d04ccc8727c",
+  "position": {
+    "x": 0,
+    "y": 0,
+    "z": 0,
+    "height": 720,
+    "width": 1280,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "source_table"
+                }
+              },
+              "queryRef": "All_Old_OoSC.source_table",
+              "nativeQueryRef": "source_table"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "ID-CHILD ID"
+                }
+              },
+              "queryRef": "All_Old_OoSC.ID-CHILD ID",
+              "nativeQueryRef": "ID-CHILD ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "student_name"
+                }
+              },
+              "queryRef": "All_Old_OoSC.student_name",
+              "nativeQueryRef": "student_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "father_name"
+                }
+              },
+              "queryRef": "All_Old_OoSC.father_name",
+              "nativeQueryRef": "father_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "mother_name"
+                }
+              },
+              "queryRef": "All_Old_OoSC.mother_name",
+              "nativeQueryRef": "mother_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "local_guardian Name"
+                }
+              },
+              "queryRef": "All_Old_OoSC.local_guardian Name",
+              "nativeQueryRef": "local_guardian Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "F_Mobile"
+                }
+              },
+              "queryRef": "All_Old_OoSC.F_Mobile",
+              "nativeQueryRef": "F_Mobile"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "district"
+                }
+              },
+              "queryRef": "All_Old_OoSC.district",
+              "nativeQueryRef": "district"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "block"
+                }
+              },
+              "queryRef": "All_Old_OoSC.block",
+              "nativeQueryRef": "block"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "F.Address"
+                }
+              },
+              "queryRef": "All_Old_OoSC.F.Address",
+              "nativeQueryRef": "F.Address"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "CentreType_Status"
+                }
+              },
+              "queryRef": "All_Old_OoSC.CentreType_Status",
+              "nativeQueryRef": "CentreType_Status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "All_Old_OoSC"
+                    }
+                  },
+                  "Property": "status_category"
+                }
+              },
+              "queryRef": "All_Old_OoSC.status_category",
+              "nativeQueryRef": "status_category"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "All_Old_OoSC"
+                  }
+                },
+                "Property": "source_table"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
