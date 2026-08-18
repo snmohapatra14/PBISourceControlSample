@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
+  "name": "9c23994ea0112365497a",
+  "position": {
+    "x": 905.90555742962238,
+    "y": 163.44041699783736,
+    "z": 1,
+    "height": 300,
+    "width": 300
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "All_Old_OoSC"
+                        }
+                      },
+                      "Property": "age"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(All_Old_OoSC.age)",
+              "nativeQueryRef": "Sum of age"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
